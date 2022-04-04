@@ -47,3 +47,13 @@ docker build -t swagger_server .
 # starting up a container
 docker run -p 8080:8080 swagger_server
 ```
+
+## Open Webpage from VSCode's Docker Extension From Linux VM
+
+NOTE: Ensure your default browser is set to Chrome
+
+1. Install [Docker plugin](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) for VSCode
+2. Run the container
+3. Navigate to docker extension and to running container
+4. Right click on the running container and click "Open in browser"
+5. Add /rsa/ui/ to the end of the URL
